@@ -31,8 +31,8 @@ $(document).ready(function (){
             },
             creditScore: {
                 required: "required field",
-                min: "Please enter a number",
-                max: "Please enter a number",
+                min: "Min 300",
+                max: "Max 850",
                 digits: "Please enter a number"
             },
             monthsAtJob: {
