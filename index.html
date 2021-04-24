@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Approval</title>
+
+
+
+</head>
+
+<body>
+
+<div class="container w60">
+    <h1 class="text-center">Loan Approval</h1>
+    <div class="separator1"></div>
+
+    <form class="d-flex justify-content-center">
+
+        <div class="mb-3 ">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="salary">Salary</label>
+                </div>
+                <input type="number" id="salary" name="salary">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="creditScore">Credit Score</label>
+                </div>
+                <input type="number" id="creditScore" name="creditScore">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="jobLength">Months at Job</label>
+                </div>
+                <input type="number" id="jobLength" name="jobLength">
+            </div>
+        </div>
+
+        <button class="btn btn-dark mb-2 button1" type="submit">Submit</button>
+
+    </form>
+
+    <h1 class="text-center" id="output"></h1>
+
+</div>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+<script src="loan.js"></script>
+<link rel="stylesheet" href="loan.css"><script src="loan.js"></script>
+</html>
